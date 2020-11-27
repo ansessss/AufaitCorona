@@ -1,10 +1,13 @@
+$(document).ready(function(){
+    $('.toast').toast(window.outerWidth >= 960 ? 'show' : 'hide');
+});
+
 var input = document.getElementById("search");
 input.addEventListener("keyup", function(event) {
   if (event.keyCode === 13) {
    changeCountry();
   }
 });
-
 
 fetch(`https://corona.lmao.ninja/v2/countries/Philippines`)
 .then((response)=>{
@@ -36,5 +39,5 @@ const changeCountry = () =>{
         document.getElementById("deaths").innerHTML = data.deaths.toLocaleString();
         document.getElementById("tests").innerHTML = data.tests.toLocaleString();
     })
-
 }
+

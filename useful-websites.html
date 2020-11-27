@@ -21,13 +21,22 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
+                        <a class="nav-link" href="./tracker.html">Tracker</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="./prevention.html">Prevention</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="./faq.html">FAQ</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="./useful-websites.html">Useful Websites</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="useful-websites.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Useful Websites</a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="./useful-websites.html#awareness">Covid-19 Awareness</a>
+                            <a class="dropdown-item" href="./useful-websites.html#shopping">Online Shopping</a>
+                            <a class="dropdown-item" href="./useful-websites.html#education">Online Education</a>
+                            <a class="dropdown-item" href="./useful-websites.html#wallet">Online Wallet</a>
+                        </div>
                     </li>
                 </ul>
                 </div>
@@ -36,12 +45,12 @@
         <div class="main">
             <div class="container my-5">
                 <div class="title my-5 text-center">
-                    <h1><b>USEFUL WEBSITES</b></h1>
+                    <h1 id="awareness"><b>USEFUL WEBSITES AND APPLICATIONS</b></h1>
                 </div>
                 <div class="card border-info mb-3">
                     <div class="card-header"><h5>Useful Websites and Applications for New Normal</h5></div>
                     <div class="card-body ">
-                        <h5 class="card-title text-info"><span class="fas fa-viruses"></span>&nbsp;&nbsp;&nbsp;Covid-19 Awareness</h5>
+                        <h5 class="card-title text-info" id="covid-awareness"><span class="fas fa-viruses"></span>&nbsp;&nbsp;&nbsp;Covid-19 Awareness</h5>
                         <div class="card-group">
                             <div class="row">
                                 <div class="card col-lg-3 col-sm-6">
@@ -83,7 +92,7 @@
 
                             </div>
                         </div>
-                        <br><br><br>
+                        <br id="shopping"><br><br>
                         <h5 class="card-title text-info"><span class="fas fa-shopping-cart"></span>&nbsp;&nbsp;&nbsp;Online Shopping</h5>
                         <div class="card-group">
                             <div class="row">
@@ -126,7 +135,7 @@
 
                             </div>
                         </div>
-                        <br><br><br>
+                        <br id="education"><br><br>
                         <h5 class="card-title text-info"><span class="fas fa-chalkboard-teacher"></span>&nbsp;&nbsp;&nbsp;Online Education</h5>
                         <div class="card-group">
                             <div class="row">
@@ -149,20 +158,63 @@
                                      </a>
                                 </div>
                                 <div class="card col-lg-3 col-sm-6">
-                                    <a href="https://shopee.ph/" class="text-decoration-none">
-                                        <img class="card-img-top" src="./images/shopee.png" alt="Card image cap">
+                                    <a href="https://new.edmodo.com/" class="text-decoration-none">
+                                        <img class="card-img-top" src="./images/edmodo.png" alt="Card image cap">
                                         <div class="card-body">
-                                            <h5 class="card-title">Shopee</h5>
-                                            <p class="card-text text-dark">Discover Shopee marketplace. Buy and sell in less than 30 sec, anytime, anywhere.</p>
+                                            <h5 class="card-title">Edmodo</h5>
+                                            <p class="card-text text-dark">Edmodo allows your whole community to learn together from anywhere with all-in-one LMS, communication, collaboration, and Zoom video conferencing tools.</p>
                                         </div>
                                     </a>
                                 </div>
                                 <div class="card col-lg-3 col-sm-6">
-                                    <a href="https://www.amazon.com/" class="text-decoration-none">
-                                        <img class="card-img-top" src="./images/amazon.png" alt="Card image cap">
+                                    <a href="https://kahoot.it/" class="text-decoration-none">
+                                        <img class="card-img-top" src="./images/kahoot.png" alt="Card image cap">
                                         <div class="card-body">
-                                            <h5 class="card-title">Amazon</h5>
-                                            <p class="card-text text-dark">Free delivery on millions of items with Prime. Low prices across earth's biggest selection of books, music, DVDs, electronics, computers, software, apparel</p>
+                                            <h5 class="card-title">Kahoot</h5>
+                                            <p class="card-text text-dark">Kahoot! is a game-based learning platform that brings engagement and fun to 1+ billion players every year at school, at work, and at home.</p>
+                                        </div>
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+                        <br id="wallet"><br><br>
+                        <h5 class="card-title text-info"><span class="fas fa-wallet"></span>&nbsp;&nbsp;&nbsp;Online Wallet/ Payment</h5>
+                        <div class="card-group">
+                            <div class="row">
+                                <div class="card col-lg-3 col-sm-6">
+                                    <a href="https://www.gcash.com/" class="text-decoration-none">
+                                        <img class="card-img-top" src="./images/gcash.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">GCash</h5>
+                                            <p class="card-text text-dark">Turn your mobile phone into a virtual wallet. Using the GCash app, you can pay for items and send money at the speed of a text message.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card col-lg-3 col-sm-6">
+                                    <a href="https://www.paymaya.com/" class="text-decoration-none">
+                                        <img class="card-img-top" src="./images/paymaya.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Paymaya</h5>
+                                            <p class="card-text text-dark">PayMaya is an online payment account that has an app where you can load up in convenience stores, pawnshops, and mall and can purchase anything online.</p>
+                                        </div>
+                                     </a>
+                                </div>
+                                <div class="card col-lg-3 col-sm-6">
+                                    <a href="https://www.paypal.com/ph/home" class="text-decoration-none">
+                                        <img class="card-img-top" src="./images/paypal.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Paypal</h5>
+                                            <p class="card-text text-dark">PayPal is the faster, safer way to send money, make an online payment, receive money or set up a merchant account.</p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="card col-lg-3 col-sm-6">
+                                    <a href="https://coins.ph/" class="text-decoration-none">
+                                        <img class="card-img-top" src="./images/coins.png" alt="Card image cap">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Coins.ph</h5>
+                                            <p class="card-text text-dark">Coins.ph is the most convenient mobile wallet for Filipinos to buy load, make online payments, and trade digital currencies. Approved and regulated by the BSP.</p>
                                         </div>
                                     </a>
                                 </div>
